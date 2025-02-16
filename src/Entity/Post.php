@@ -32,7 +32,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  * @author Yonel Ceruto <yonelceruto@gmail.com>
  */
 #[ORM\Entity(repositoryClass: PostRepository::class)]
-#[ORM\Table(name: 'post')]
+#[ORM\Table(name: 'symfony_demo_post')]
 #[UniqueEntity(fields: ['slug'], errorPath: 'title', message: 'post.slug_unique')]
 class Post
 {
