@@ -26,3 +26,7 @@
 ###> phpstan/phpstan ###
 phpstan.neon
 ###< phpstan/phpstan ###
+
+/.idea
+/.devcontainer
+/.github
